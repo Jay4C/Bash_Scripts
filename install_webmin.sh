@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# follow theses steps : https://www.digitalocean.com/community/tutorials/how-to-install-webmin-on-ubuntu-20-04
+
+sudo apt update
+
+sudo nano /etc/apt/sources.list
+
+wget -q -O- http://www.webmin.com/jcameron-key.asc | sudo apt-key add
+
+sudo apt update
+
+sudo apt install webmin
+
+sudo ufw allow 10000
