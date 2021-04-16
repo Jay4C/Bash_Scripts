@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # follow these steps : https://devconnected.com/how-to-install-and-enable-ssh-server-on-ubuntu-20-04/
 
